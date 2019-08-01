@@ -21,6 +21,9 @@
     "url": "https://github.com/matt-way/gifuct-js/issues"
   },
   "homepage": "https://github.com/matt-way/gifuct-js",
+  "dependencies": {
+    "js-binary-schema-parser": "matt-way/jsBinarySchemaParser"
+  },
   "devDependencies": {
     "browserify": "^10.2.6",
     "gulp": "^3.9.0",
@@ -28,7 +31,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.2.0",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0",
-    "js-binary-schema-parser": "matt-way/jsBinarySchemaParser"
+    "vinyl-source-stream": "^1.1.0"
   }
 }
